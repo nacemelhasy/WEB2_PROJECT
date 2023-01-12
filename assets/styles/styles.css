@@ -1,0 +1,16 @@
+div#logo {
+    position: absolute;
+    top: 2vw;
+    left: 45vw;
+    width: 10vw;
+    height: 10vw;
+    transition: box-shadow .3s;
+    border-radius: 50%;
+    background-color: #FFFBEB;
+    background-image: url(../images/logo.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+

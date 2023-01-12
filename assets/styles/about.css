@@ -1,0 +1,78 @@
+footer p {
+    text-align: center;
+    font-family: monospace;
+    font-size: 1vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(41, 39, 39);
+}
+
+
+
+div#logo:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+div.centered {
+    width: 50vw;
+    height:28vw;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border-radius: 20px;
+    background-color: #324755;
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.486);
+}
+
+body {
+    background-image: linear-gradient(to right, #D9727F, #465C7A);
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(24, 16, 58);
+    margin: 0% 5% ;
+    text-align: center;
+}
+
+.userAvatar {
+    position: relative;
+    left: 5%;
+    top: 15%;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-image: url(https://avatars.githubusercontent.com/u/27435880?v=4);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social {
+    position: relative;
+    left: 5%;
+    top: 25%;
+    width: 25%;
+    height: 45%;
+    font-size: 1.5vw;
+}
+
+.devInfo {
+    color: azure;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    width: 60%;
+    height: 50%;
+    font-size: 1.5vw;
+}
+
+p.infoLine {
+    position: relative;
+    width: 80%;
+    height: fit-content;
+    font-size: 1.5vw;
+}

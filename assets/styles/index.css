@@ -1,0 +1,108 @@
+body {
+    background-image: linear-gradient(to right, #D9727F, #465C7A);
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: none;
+    text-align: center;
+}
+
+div#logo {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    width: 10%;
+    height: 20%;
+    transition: box-shadow .3s;
+    border-radius: 50%;
+    background-color: #475c7a3a;
+    background-image: url(../images/logo.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#logo:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+
+}
+
+div.centered {
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border-radius: 20px;
+    background-color: #324755;
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.486);
+}
+
+@font-face {
+    font-family: ds-digi;
+    src: url(../fonts/DS-DIGI.TTF);
+    src: url(../fonts/DS-DIGIB.TTF);
+}
+
+div.title {
+    width: 60%;
+    font-family: ds-digi;
+    font-size: 180%;
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    top: 20%;
+    left: 20%;
+}
+
+button:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.486);
+}
+
+button {
+    padding: 2%;
+
+    height: fit-content;
+
+    font-family: ds-digi;
+    font-size: 180%;
+
+    width: 20%;
+    padding: 2%;
+    border-radius: 20px;
+    border: none;
+    background-color: #3f536e69;
+    transition: box-shadow .3s;
+}
+
+.login {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+.signup {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.discover {
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+
+footer p {
+    text-align: center;
+    font-family: monospace;
+    font-size: small;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(41, 39, 39);
+}
